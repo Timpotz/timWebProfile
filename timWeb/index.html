@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tim Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/timlogo black.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                 <strong>Timotius Pangaribuan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Back-end dev<br>QMS Auditor</p>
+            <img src="img/photo1.jpg" alt="" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Mostly working on Back-end side of web development such as Web APIs, database design but also also interested in becoming a fullstack developer </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>QMS Auditor</h3>
+                    <p>Conducts internal audits to ensure companies achieve their ISO-9001 certification and manages company electronic documentations</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Translator</h3>
+                    <p>Translates documents from English to Indonesian and vice versa. Also experienced at being an interpreter</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">Previous Projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Web development enthusiast</p>
+           
+           <div class="about-me__body">
+               <p>I'm a web development enthusiast... always learning while coding... I have always had an interest in computers since i was a kid... I studied back-end web development at Glints Academy and still discovering new things about web development. I am also interested in the front end side of web development.</p>
+               <p>Quick summary of my previous work experiences: <br>1 year as CS with Telkom Flexi<br>3 years as bancassurance specialist with BNI<br>3 years as QMS officer</p>
+           </div>
+           
+           <img src="img/timphoto2.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle section__subtitle--work"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-substit.html" class="portfolio__item">
+                    <img src="img/subsItfront.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="http://doc.sipefid.com/" class="portfolio__item">
+                    <img src="img/edoc.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Tech Used-->
+        <section class="my-work1" id="work">
+            <h2 class="section__title section__title--work">Techs Used</h2>
+          
+            
+            <div class>
+                <!-- Portfolio item 01 -->
+                <img class="techicon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/200px-Node.js_logo.svg.png" alt="">
+                <img class="techicon" src="img/postgres.png" alt="">
+                <img class="techicon" src="img/mongo.png" alt="" >
+                <img class="techicon" src="img/html.png" alt="" >
+                <img class="techicon" src="img/css.png" alt="" >
+                <img class="techicon" src="img/express.png" alt="" >
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:timotiusp187@gmail.com" class="footer__link">timotiusp187@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/timotius-pangaribuan-7b6595a2/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://gitlab.com/Timpotz">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Timpotz">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
