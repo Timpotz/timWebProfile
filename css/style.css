@@ -395,8 +395,9 @@ header {
 .my-work1 {
     background-color: var(--clr-light);
     color: var(--clr-dark);
-    text-align: center;   
-    height:500px 
+    text-align: center; 
+    height:auto;  
+    width:auto;
 }
 
 .portfolio {
@@ -503,7 +504,11 @@ header {
 }
 
 .techicon{
-    float:left;
-    padding:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
+}
+.techiconcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
